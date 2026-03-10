@@ -1,12 +1,35 @@
-header{
-    text-align:center;
+html{
+    font-family: 'Audiowide';
+    scroll-behavior: smooth;
 }
+body{
+    background-image: url("bg5.png");
+    height: 800px;
+    background-size: cover;
+    padding-top: 50px;
+    background-repeat: repeat;
+    margin: 0px;
+}
+header{
+    box-shadow: 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(219, 221, 225);
+}
+.banner{
+    margin: 10px;
+}
+
 header img{
-    height: 150px;
+    height: 200px;
     background-color: aliceblue;
 }
+nav{
+    padding: 10px 20px;
+}
 nav a{
-    font-family: Audiowide;
     background-color: rgba(252, 248, 2, 0.432);
     border-radius: 20px 0px 20px 0px;
     padding: 5px 15px;
@@ -24,6 +47,167 @@ nav a:hover{
     padding: 7px 20px;
     transition: 0,5s;
 }
-home{
-    height: 100px;
+.containerHome{
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 25px;
+}
+section.about {
+   height: 800px;
+}
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+         width:200px;
+    }
+}
+
+.deskripsiHome{
+    width: 40%;
+    font-size: 20px;
+    margin-left: 50px;
+    width: 40%;
+    margin-left: 100px;
+    text-decoration: none;
+    background-color: rgb(216, 86, 39);
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    & h3{
+        color:rgb(31, 51, 2);
+    }
+    & p{
+        color:rgb(9, 87, 155);
+    }
+}
+.deskripsiHome a:hover{
+    box-shadow: 3px 3px 5px -3px black;
+    transition: 0.5s;
+}
+section.home{
+    background-image: url("bg5.png");
+    height: 800px;
+    background-size: cover;
+    padding-top: 50px;
+    background-repeat: repeat;
+}
+h1.judulHome{
+    font-size: 50px;
+    color:rgb(4, 122, 73);
+}
+section.learnmore{
+    text-align: center;
+    background-color: rgba(252, 248, 2, 0.432);
+    border-radius: 20px 0px 20px 0px;
+    padding: 5px 15px;
+    margin: 50px;
+    color: rgb(146, 71, 0);
+    text-decoration: none;
+    border-radius: 20px 0px 20px 0px;
+    transition: 1s;
+}
+section.learnmore:hover{
+    color: rgba(255, 217, 0, 0.822);
+    background-color: rgb(172, 72, 6);
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 5px 5px 5px -2px rgba(219, 180, 3, 0.63);
+    padding: 7px 20px;
+    transition: 0,5s;
+} 
+section.project img{
+    height: 300px;
+}
+.deskProject{
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 500px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(234, 250, 8, 0.719);
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    & h3{
+        color:rgb(31, 51, 2);
+    }
+    & p{
+        color:rgb(9, 87, 155);
+    }
+}
+section.how_to{
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 50px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(185, 140, 14, 0.822);
+    border-radius: 30px;
+    transition: 0.3s;
+    height: 640px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & h3{
+        color:rgb(31, 51, 2);
+    }
+    & p{
+        color:rgb(9, 87, 155);
+    }
+}
+.how_to img{
+    height: 200px;
+}
+.deskHowto{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.dokumentasi{
+    margin: 20px;
+}
+section.profile{
+    height: 800px;
+    padding-top: 50px;
+    background-color: rgb(31, 51, 2);
+    text-align: center;
+    & h3{
+        font-size: 33px;
+        color:rgba(248, 149, 0, 0.863)
+    }
+    & p{
+        font-size: 23px;
+        color:rgba(121, 185, 0, 0.863)
+    }
+}
+.cardProfile{
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.cardProfile img{
+    width: 350px;
+    image-orientation: 0turn;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+    color:rgb(216, 86, 39);
+    height: 455px;
 }
