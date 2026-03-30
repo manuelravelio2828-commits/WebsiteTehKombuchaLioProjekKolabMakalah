@@ -2,24 +2,53 @@ html{
     font-family: 'Audiowide';
     scroll-behavior: smooth;
 }
-body{
-    background-image: url("bg5.png");
-    height: 800px;
-    background-size: cover;
+body {
+    height: 100%;
+    width: 100%;
     padding-top: 50px;
-    background-repeat: repeat;
-    margin: 0px;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
 }
+    
 header{
+    margin-top: -58px;
     box-shadow: 0px 0px 5px;
     display: flex;
     justify-content: space-between;
     text-align: center;
     width: 100%;
-    background-color: rgb(219, 221, 225);
+    background-color: rgba(243, 242, 239, 0.678);
+    position: fixed;
 }
 .banner{
     margin: 10px;
+}
+
+.banner a{
+    background-color: rgba(252, 248, 2, 0.432);
+    border-radius: 20px 0px 20px 0px;
+    padding: 5px 15px;
+    margin: 50px;
+    color: rgb(146, 71, 0);
+    text-decoration: none;
+    border-radius: 20px 0px 20px 0px;
+    transition: 1s;
+}
+
+.banner a:hover{
+    background-color: rgb(172, 72, 6);
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px 20px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px -2px rgba(219, 180, 3, 0.63);
+    color: rgba(255, 217, 0, 0.822);
+    text-decoration: none;
+    border-radius: 20px 0px 20px 0px;
+    transition: 1s;
 }
 
 header img{
@@ -52,7 +81,7 @@ nav a:hover{
     margin-left: 10px;
     padding-top: 25px;
 }
-section.about {
+section.about{
    height: 800px;
 }
 .containerAbout{
@@ -65,15 +94,16 @@ section.about {
     }
 }
 
-.deskripsiHome{
-    width: 40%;
+section.home{
+    width: 80%;
     font-size: 20px;
-    margin-left: 50px;
-    width: 40%;
     margin-left: 100px;
+    width: 40%;
+    height: 1270px;
+    margin-left: 50px;
     text-decoration: none;
     background-color: rgb(216, 86, 39);
-    padding: 10px 25px;
+    padding: 10px;
     border-radius: 30px;
     transition: 0.3s;
     & h3{
@@ -83,47 +113,42 @@ section.about {
         color:rgb(9, 87, 155);
     }
 }
-.deskripsiHome a:hover{
-    box-shadow: 3px 3px 5px -3px black;
-    transition: 0.5s;
-}
-section.home{
-    background-image: url("bg5.png");
-    height: 800px;
-    background-size: cover;
-    padding-top: 50px;
-    background-repeat: repeat;
-}
 h1.judulHome{
     font-size: 50px;
     color:rgb(4, 122, 73);
 }
-section.learnmore{
-    text-align: center;
+section.home img{
+    height: 300px;
+    margin-right: 300px;
+}
+section.home a{
     background-color: rgba(252, 248, 2, 0.432);
     border-radius: 20px 0px 20px 0px;
-    padding: 5px 15px;
-    margin: 50px;
+    padding: 10px 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: center;
     color: rgb(146, 71, 0);
     text-decoration: none;
-    border-radius: 20px 0px 20px 0px;
     transition: 1s;
 }
-section.learnmore:hover{
+section.home a:hover{
     color: rgba(255, 217, 0, 0.822);
     background-color: rgb(172, 72, 6);
-    border-radius: 20px 0px 20px 0px;
     box-shadow: 5px 5px 5px -2px rgba(219, 180, 3, 0.63);
-    padding: 7px 20px;
+    border-radius: 20px 0px 20px 0px;
+    padding: 7px 25px;
     transition: 0,5s;
 } 
 
-section.about{
+section.Explaination{
     text-align: center;
     width: 80%;
     font-size: 20px;
     margin: 50px;
     margin-top: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-decoration: none;
     color: aliceblue;
     background-color: rgba(185, 140, 14, 0.822);
@@ -142,7 +167,7 @@ section.about{
     }
 }
 
-section.about img{
+section.Explaination img{
     height: 300px;
 }
 
@@ -180,6 +205,8 @@ section.how_to{
     transition: 0.3s;
     height: 640px;
     padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
