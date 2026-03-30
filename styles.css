@@ -117,6 +117,35 @@ section.learnmore:hover{
     padding: 7px 20px;
     transition: 0,5s;
 } 
+
+section.about{
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 500px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(185, 140, 14, 0.822);
+    border-radius: 30px;
+    transition: 0.3s;
+    height: 900px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    & h3{
+        color:rgb(31, 51, 2);
+    }
+    & p{
+        color:rgb(9, 87, 155);
+    }
+}
+
+section.about img{
+    height: 300px;
+}
+
 section.project img{
     height: 300px;
 }
